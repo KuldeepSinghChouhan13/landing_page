@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 65px;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.topleft {
+  width: 50%;
+  padding: 12px 0;
+}
+
+.topright {
+  width: 50%;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.dumbellimg {
+  width: 250px;
+}
+
+.section1 h1 {
+  font-size: 1.8rem;
+}
+
+.section2 {
+  padding: 72px;
+}
+
+.section2 h1 {
+  font-size: 2rem;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h2 {
+  padding: 12px 0;
+}
+
+.highlighted {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+/* section3 styleing */
+
+.section3 h1 {
+  font-size: 1.5rem;
+}
+
+.section3 table {
+  width: 100%;
+  margin-bottom: 110px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.section3 table th {
+  width: 23vw;
+  padding: 10px 10px;
+  border-bottom: 2px solid black;
+}
+
+.section3 table td {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.section3 table tr {
+  border-bottom: 2px solid black;
+}
+
+.section3 {
+  padding: 72px;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  padding: 10px;
+  text-align: center;
+}
+
+.herosection{
+
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.herosection{
+  /* background-color: black; */
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 50%;
+  width: 100%;
+  z-index: 10 ;
+}
+
+#box{
+  background-color: beige;
+  padding: 10px 4px;
+  display: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  /* width: 40vw; */
+  
+}
+
+#box div{
+  padding: 4px;
+  /* margin: 5px; */
+}
+
+
+/* Responsive  */
+@media (max-width: 860px) {
+  .flex{
+    flex-direction: column;
+    text-align: center;
+    height: 50%;
+  }
+
+  .herosection{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .navbar li {
+     margin: 10px;
+  }
+
+  .logo{
+   display: flex;
+   align-items: center;
+  }
+
+  .topright img{
+    padding: 0px;
+    width: 70%;
+    height: 50%;
+  text-align: center;
+  }
+
+  .topright h2{
+    padding: 0 0px;
+    padding-left: 20px;
+  text-align: center;
+  }
+
+  .container{
+    max-width: 100vw;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+}
